@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0201569F1ED363EC00B7C978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201569E1ED363EC00B7C978 /* AppDelegate.swift */; };
+		020156A11ED363EC00B7C978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020156A01ED363EC00B7C978 /* ViewController.swift */; };
+		020156A41ED363EC00B7C978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020156A21ED363EC00B7C978 /* Main.storyboard */; };
+		020156A61ED363ED00B7C978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020156A51ED363ED00B7C978 /* Assets.xcassets */; };
+		020156A91ED363ED00B7C978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020156A71ED363ED00B7C978 /* LaunchScreen.storyboard */; };
+		020156B21ED3E59D00B7C978 /* Lobster 1.4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 020156B11ED3E52000B7C978 /* Lobster 1.4.otf */; };
+		020156B51ED3EBC100B7C978 /* light-blue-gradient-wallpaper-2.jpg-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020156B41ED3EBC100B7C978 /* light-blue-gradient-wallpaper-2.jpg-1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0201569B1ED363EC00B7C978 /* Shower Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shower Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0201569E1ED363EC00B7C978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		020156A01ED363EC00B7C978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		020156A31ED363EC00B7C978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		020156A51ED363ED00B7C978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		020156A81ED363ED00B7C978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		020156AA1ED363ED00B7C978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020156B11ED3E52000B7C978 /* Lobster 1.4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lobster 1.4.otf"; path = "../../../Downloads/lobster/Lobster 1.4.otf"; sourceTree = "<group>"; };
+		020156B41ED3EBC100B7C978 /* light-blue-gradient-wallpaper-2.jpg-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "light-blue-gradient-wallpaper-2.jpg-1.jpg"; path = "../../light-blue-gradient-wallpaper-2.jpg-1.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020156981ED363EC00B7C978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020156921ED363EC00B7C978 = {
+			isa = PBXGroup;
+			children = (
+				0201569D1ED363EC00B7C978 /* Shower Buddy */,
+				0201569C1ED363EC00B7C978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0201569C1ED363EC00B7C978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0201569B1ED363EC00B7C978 /* Shower Buddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0201569D1ED363EC00B7C978 /* Shower Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				020156B31ED3EB2F00B7C978 /* Images */,
+				020156B01ED3E51600B7C978 /* Fonts */,
+				0201569E1ED363EC00B7C978 /* AppDelegate.swift */,
+				020156A01ED363EC00B7C978 /* ViewController.swift */,
+				020156A21ED363EC00B7C978 /* Main.storyboard */,
+				020156A51ED363ED00B7C978 /* Assets.xcassets */,
+				020156A71ED363ED00B7C978 /* LaunchScreen.storyboard */,
+				020156AA1ED363ED00B7C978 /* Info.plist */,
+			);
+			path = "Shower Buddy";
+			sourceTree = "<group>";
+		};
+		020156B01ED3E51600B7C978 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				020156B11ED3E52000B7C978 /* Lobster 1.4.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		020156B31ED3EB2F00B7C978 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				020156B41ED3EBC100B7C978 /* light-blue-gradient-wallpaper-2.jpg-1.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0201569A1ED363EC00B7C978 /* Shower Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020156AD1ED363ED00B7C978 /* Build configuration list for PBXNativeTarget "Shower Buddy" */;
+			buildPhases = (
+				020156971ED363EC00B7C978 /* Sources */,
+				020156981ED363EC00B7C978 /* Frameworks */,
+				020156991ED363EC00B7C978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shower Buddy";
+			productName = "Shower Buddy";
+			productReference = 0201569B1ED363EC00B7C978 /* Shower Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020156931ED363EC00B7C978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = entrepreneurship;
+				TargetAttributes = {
+					0201569A1ED363EC00B7C978 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 020156961ED363EC00B7C978 /* Build configuration list for PBXProject "Shower Buddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020156921ED363EC00B7C978;
+			productRefGroup = 0201569C1ED363EC00B7C978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0201569A1ED363EC00B7C978 /* Shower Buddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020156991ED363EC00B7C978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020156B21ED3E59D00B7C978 /* Lobster 1.4.otf in Resources */,
+				020156A91ED363ED00B7C978 /* LaunchScreen.storyboard in Resources */,
+				020156A61ED363ED00B7C978 /* Assets.xcassets in Resources */,
+				020156A41ED363EC00B7C978 /* Main.storyboard in Resources */,
+				020156B51ED3EBC100B7C978 /* light-blue-gradient-wallpaper-2.jpg-1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020156971ED363EC00B7C978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020156A11ED363EC00B7C978 /* ViewController.swift in Sources */,
+				0201569F1ED363EC00B7C978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		020156A21ED363EC00B7C978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020156A31ED363EC00B7C978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		020156A71ED363ED00B7C978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020156A81ED363ED00B7C978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020156AB1ED363ED00B7C978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		020156AC1ED363ED00B7C978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		020156AE1ED363ED00B7C978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shower Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.entrepreneurship.Shower-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		020156AF1ED363ED00B7C978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shower Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.entrepreneurship.Shower-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020156961ED363EC00B7C978 /* Build configuration list for PBXProject "Shower Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020156AB1ED363ED00B7C978 /* Debug */,
+				020156AC1ED363ED00B7C978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020156AD1ED363ED00B7C978 /* Build configuration list for PBXNativeTarget "Shower Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020156AE1ED363ED00B7C978 /* Debug */,
+				020156AF1ED363ED00B7C978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020156931ED363EC00B7C978 /* Project object */;
+}
